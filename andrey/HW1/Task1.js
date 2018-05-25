@@ -11,13 +11,13 @@ function addPositive(a, b, c, d) {
         d = X;
     }
     return a + b + c + d;
-};
+}
 
 
 
 function includeNegative(a, b, c, d) {
     return a + b + c + d;
-};
+}
 
 function addFunction(a, b, c, d) {
     if (confirm('Ignore negatives?')) {
@@ -25,7 +25,7 @@ function addFunction(a, b, c, d) {
     } else {
         return includeNegative(a, b, c, d);
     }
-};
+}
 
 console.log(addFunction(1, -4, 7, 12));
 
