@@ -23,3 +23,6 @@ CRM JavaScript learning
     * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures
 7. [Function declaration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function) and [function expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/function)
     * https://learn.javascript.ru/function-declaration-expression
+  
+# Lecture #1 
+Repetition of Lecture #0
