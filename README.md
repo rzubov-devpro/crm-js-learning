@@ -38,5 +38,6 @@ CRM JavaScript learning
 2. external vs internal scripts, order of scripts load and execution. [async](https://www.w3schools.com/tags/att_script_async.asp), [deffer](https://www.w3schools.com/tags/att_script_defer.asp) script attribute
     * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script
 3. basic operators. Unary and binary operators, [operand](https://developer.mozilla.org/en-US/docs/Glossary/Operand).
+  * Operators: [increment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Increment), [decrement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Decrement_(--)), [Compound assignment operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Assignment_operators)(e.g: let x +=5;), [Reminder](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Remainder)
     * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/expressions_and_operators
   
