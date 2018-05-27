@@ -2,7 +2,7 @@
 CRM JavaScript learning
 
 # Lecture #0
- 1. A Brief History of JavaScript
+1. A Brief History of JavaScript
     * https://en.wikipedia.org/wiki/JavaScript
     * https://auth0.com/blog/a-brief-history-of-javascript
 2. keywords: [var](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var), [let](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let), [const](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const), [function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function), [typeof](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/typeof)
@@ -23,6 +23,20 @@ CRM JavaScript learning
     * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures
 7. [Function declaration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function) and [function expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/function)
     * https://learn.javascript.ru/function-declaration-expression
-  
+8. Interaction with user. [window.alert](https://developer.mozilla.org/ru/docs/Web/API/Window/alert), [windows.confirm](https://developer.mozilla.org/en-US/docs/Web/API/Window/confirm)  
+
+
 # Lecture #1 
-Repetition of Lecture #0
+1. Repetition of Lecture #0
+2. more about types
+3. more about variables
+2. null example to be added
+3. Base math operators, +, -, *, /
+
+# Lecture #2
+1. homework analysis
+2. external vs internal scripts, order of scripts load and execution. [async](https://www.w3schools.com/tags/att_script_async.asp), [deffer](https://www.w3schools.com/tags/att_script_defer.asp) script attribute
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script
+3. basic operators. Unary and binary operators, [operand](https://developer.mozilla.org/en-US/docs/Glossary/Operand).
+    * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/expressions_and_operators
+  
