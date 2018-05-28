@@ -47,3 +47,8 @@ CRM JavaScript learning
 3. Comparison Operators: [Equality](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Equality_operators)(==),[Inequality](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Inequality_(!))(!=), [Identity/strict equality](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Identity_strict_equality_())(===), [Non-identity/strict inequality](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Non-identity_strict_inequality_(!))(!==), [Greater than or equal](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Greater_than_or_equal_operator_(>))(>=), [Less than or equal](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Less_than_or_equal_operator_(<))(<=)
 4. [Operators precedence](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence#Table)
 5. Interaction with user. [window.alert](https://developer.mozilla.org/ru/docs/Web/API/Window/alert), [windows.confirm](https://developer.mozilla.org/en-US/docs/Web/API/Window/confirm), [windows.prompt](https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt)
+
+# Lecture #4
+1. Repetition of Lecture #3
+2. if/else if/else repetition, [Conditional (ternary) conditional](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator), if/else if/else vs ternary ?:
+3. Object data type, navigation by the object and array.
