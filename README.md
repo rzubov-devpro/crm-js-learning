@@ -40,4 +40,7 @@ CRM JavaScript learning
 3. basic operators. Unary and binary operators, [operand](https://developer.mozilla.org/en-US/docs/Glossary/Operand).
   * Operators: [increment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Increment), [decrement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Decrement_(--)), [Compound assignment operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Assignment_operators)(e.g: let x +=5;), [Reminder](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Remainder)
     * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/expressions_and_operators
-  
+
+# Lecture #3  
+1. Finished with basic operators: [comma operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comma_Operator)(,), [bitwise NOT](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Bitwise_NOT) (~) and role of Bitwise not in search functions
+2. [Operators precedence](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence#Table)
