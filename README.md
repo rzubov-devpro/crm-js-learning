@@ -30,17 +30,20 @@ CRM JavaScript learning
 1. Repetition of Lecture #0
 2. more about types
 3. more about variables
-2. null example to be added
-3. Base math operators, +, -, *, /
+4. null example to be added
+5. Base math operators, +, -, *, /
 
 # Lecture #2
 1. homework analysis
 2. external vs internal scripts, order of scripts load and execution. [async](https://www.w3schools.com/tags/att_script_async.asp), [deffer](https://www.w3schools.com/tags/att_script_defer.asp) script attribute
     * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script
 3. basic operators. Unary and binary operators, [operand](https://developer.mozilla.org/en-US/docs/Glossary/Operand).
-  * Operators: [increment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Increment), [decrement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Decrement_(--)), [Compound assignment operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Assignment_operators)(e.g: let x +=5;), [Reminder](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Remainder)
+  * Operators: [increment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Increment)(++), [decrement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Decrement_(--))(--), [Compound assignment operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Assignment_operators)(e.g: let x +=5;), [Reminder](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Remainder)(%)
     * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/expressions_and_operators
 
 # Lecture #3  
 1. Finished with basic operators: [comma operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comma_Operator)(,), [bitwise NOT](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Bitwise_NOT) (~) and role of Bitwise not in search functions
-2. [Operators precedence](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence#Table)
+2. Logical operators: [Logical NOT](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators#Logical_NOT)(!), [Logical OR](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators#Logical_OR)(||), [Logical AND](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators#Logical_AND)(&&)
+3. Comparison Operators: [Equality](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Equality_operators)(==),[Inequality](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Inequality_(!))(!=), [Identity/strict equality](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Identity_strict_equality_())(===), [Non-identity/strict inequality](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Non-identity_strict_inequality_(!))(!==), [Greater than or equal](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Greater_than_or_equal_operator_(>))(>=), [Less than or equal](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Less_than_or_equal_operator_(<))(<=)
+4. [Operators precedence](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence#Table)
+5. Interaction with user. [window.alert](https://developer.mozilla.org/ru/docs/Web/API/Window/alert), [windows.confirm](https://developer.mozilla.org/en-US/docs/Web/API/Window/confirm), [windows.prompt](https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt)
