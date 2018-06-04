@@ -8,9 +8,9 @@
 function isDivisible(n, x, y) {
 
     if (n % x === 0 && n % y === 0) {
-        return ('YES, this number is divisble!')
+        return (true + ` because ${n} is divisible by ${x} and ${y}`)
     }
-    return ('NO, this number is NOT divisble')
+    return (false + ` because ${n} is not divisible by ${x} and ${y}`)
 }
 
 console.log('Do you think 3 is divisible by 1 and 3? ' + '\n' + '\n' + isDivisible(3,1,3))
