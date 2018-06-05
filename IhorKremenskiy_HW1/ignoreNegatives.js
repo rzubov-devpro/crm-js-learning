@@ -16,9 +16,10 @@ function add(a, b, c, d) {
         if (d < 0) {
             d = 0;
         }
+
+        return a + b + c + d;
     }
 
-    return a + b + c + d;
 }
 
 
