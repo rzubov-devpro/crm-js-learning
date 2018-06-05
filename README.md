@@ -52,8 +52,15 @@ CRM JavaScript learning
 1. Repetition of Lecture #3
 2. if/else if/else repetition, [Conditional (ternary) conditional](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator), if/else if/else vs ternary ?:
 3. Object data type, navigation by the objects and arrays. Functions in the object.
+4. [Template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
 
 # Lecture #5
-1. Loops: [while](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while), [do...while](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/do...while), [for](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for), [for..in](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in)
+1. Loops: [while](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while), [do...while](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/do...while)
+
+# Lecture #6
+1. Loops: [for](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for), [for..in](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in)
 2. [switch/case construction](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
-3. [break](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/break) and [continue](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/continue) statements
+
+# Lecture #7
+1. [switch/case construction](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
+2. [break](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/break) and [continue](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/continue) statements
