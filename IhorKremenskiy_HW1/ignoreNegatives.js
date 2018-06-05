@@ -1,8 +1,7 @@
 
 function add(a, b, c, d) {
-    let ignoreNegatives = confirm("Ignore negatives?");
 
-    if (ignoreNegatives) {
+    if (confirm("Ignore negatives?")) {
 
         if (a < 0) {
             a = 0;
@@ -17,9 +16,9 @@ function add(a, b, c, d) {
             d = 0;
         }
 
-        return a + b + c + d;
     }
 
+    return a + b + c + d;
 }
 
 
