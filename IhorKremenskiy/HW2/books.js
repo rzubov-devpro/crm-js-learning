@@ -19,16 +19,7 @@ if (confirm (`Would you like to add ${bookName} to the library?`)){
     alert (`${bookName} by ${bookAuthor} successfully saved to the library`)
 
 } else close
-
-function bookManager(){
-    let library = {
-        name: ""
-
-    }
-
-};
-
-// The *bookManager* function should _return_ an object with all data collected and some functions implemented, object structure should be like:
+   // The *bookManager* function should _return_ an object with all data collected and some functions implemented, object structure should be like:
 // {
 //   name:"",
 //   author:"",
@@ -38,6 +29,49 @@ function bookManager(){
 //   getPublicationCentury:function(){}
 
 // }
+function bookManager(){
+    return {
+        name: `${bookName}`,
+        author: `${bookAuthor}`,
+        publication_year: bookYear,
+        pages_count: bookPages,
+        getBookSize: function (){
+            if (pages_count < 101){
+                return 'S';
+            } else if (pages_count < 251 && pages_count >= 101) {
+                return 'M';
+            } else if (pages_count < 501 && pages_count >= 251) {
+                return 'L';
+            } else  {
+                return 'XL';
+            }
+
+
+        },
+        getPublicationCentury: function (){
+            if (publication_year >= 2000 ){
+                return '21st century';
+            } else if (publication_year > 2000 && publication_year >= 1900) {
+                return '20th century';
+            } else if (publication_year > 1900 && publication_year >= 1800) {
+                return '19th century';
+            }  else if (publication_year > 1800 && publication_year >= 1700) {
+                return '18th century';
+            }   else if (publication_year > 1700 && publication_year >= 1600) {
+                return '17th century';
+            }   else if (publication_year > 1600 && publication_year >= 1500) {
+                return '16th century';
+            }   else if (publication_year > 1500 && publication_year >= 1400) {
+                return '15th century';
+            } else  {
+                return 'Antique book';
+            }
+        },
+    }
+
+};
+
+console.log (bookManager.getBookSize());
 
 // getBookSize - should _return_ S,M,L or XL depending on pages_count. S - less than 101 pages, M - less than 251 pages, L - less than 501 pages, XL - more than 500 pages
 // getPublicationCentury - should return book publication century based on book publication year.
