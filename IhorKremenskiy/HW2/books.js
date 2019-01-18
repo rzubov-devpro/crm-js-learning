@@ -29,18 +29,18 @@ if (confirm (`Would you like to add ${bookName} to the library?`)){
 //   getPublicationCentury:function(){}
 
 // }
-function bookManager(){
+let bookManager = function (){
     return {
         name: `${bookName}`,
         author: `${bookAuthor}`,
         publication_year: bookYear,
         pages_count: bookPages,
         getBookSize: function (){
-            if (pages_count < 101){
+            if (this.pages_count < 101){
                 return 'S';
-            } else if (pages_count < 251 && pages_count >= 101) {
+            } else if (this.pages_count < 251 && this.pages_count >= 101) {
                 return 'M';
-            } else if (pages_count < 501 && pages_count >= 251) {
+            } else if (this.pages_count < 501 && this.pages_count >= 251) {
                 return 'L';
             } else  {
                 return 'XL';
@@ -49,19 +49,19 @@ function bookManager(){
 
         },
         getPublicationCentury: function (){
-            if (publication_year >= 2000 ){
+            if (this.publication_year >= 2000 ){
                 return '21st century';
-            } else if (publication_year > 2000 && publication_year >= 1900) {
+            } else if (this.publication_year > 2000 && this.publication_year >= 1900) {
                 return '20th century';
-            } else if (publication_year > 1900 && publication_year >= 1800) {
+            } else if (this.publication_year > 1900 && this.publication_year >= 1800) {
                 return '19th century';
-            }  else if (publication_year > 1800 && publication_year >= 1700) {
+            }  else if (this.publication_year > 1800 && this.publication_year >= 1700) {
                 return '18th century';
-            }   else if (publication_year > 1700 && publication_year >= 1600) {
+            }   else if (this.publication_year > 1700 && this.publication_year >= 1600) {
                 return '17th century';
-            }   else if (publication_year > 1600 && publication_year >= 1500) {
+            }   else if (this.publication_year > 1600 && this.publication_year >= 1500) {
                 return '16th century';
-            }   else if (publication_year > 1500 && publication_year >= 1400) {
+            }   else if (this.publication_year > 1500 && this.publication_year >= 1400) {
                 return '15th century';
             } else  {
                 return 'Antique book';
@@ -71,7 +71,11 @@ function bookManager(){
 
 };
 
-console.log (bookManager.getBookSize());
+
+let bookResult = bookManager();
+
+alert (`Your book size is ${bookResult.getBookSize()}`);
+alert (`Your book was published in ${bookResult.getPublicationCentury()}`);
 
 // getBookSize - should _return_ S,M,L or XL depending on pages_count. S - less than 101 pages, M - less than 251 pages, L - less than 501 pages, XL - more than 500 pages
 // getPublicationCentury - should return book publication century based on book publication year.
