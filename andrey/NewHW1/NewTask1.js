@@ -13,17 +13,20 @@ function bookManger() {
 
         }
 
-    return bookLibarary = {
+    return book = {
         name: bookname,
         author: bookauthor,
         publication_year: bookyear,
         pages_count: pagecount,
         getBookSize: function() {
-            if (pagecount <= 100) {
+            if (pagecount < 101) {
                booksize = "Small Size"
-            } else if (100 < pagecount < 500) {
+            } else if (100 < pagecount < 251) {
                booksize = "Medium Size"
-            } else booksize = "Large Size"
+            } else if (251 < pagecount < 501) {
+                booksize = "Large Size"
+            }
+                else booksize = "XLarge Size"
         },
         getPublicatioCentury: function(){
             if (bookyear < 0){
