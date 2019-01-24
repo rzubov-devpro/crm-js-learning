@@ -1,13 +1,13 @@
 
 function bookManger() {
-    let bookname = window.prompt ("Please, enter a book name: ");
-    let bookauthor = window.prompt ("Pleas, enter a book author: ");
-    let bookyear = window.prompt ("Please enter a book publication year: ");
-    let pagecount = window.prompt ("Please enter a book pages count: ");
+    let bookname = window.prompt ('Please, enter a book name: ');
+    let bookauthor = window.prompt ('Pleas, enter a book author: ');
+    let bookyear = window.prompt ('Please enter a book publication year: ');
+    let pagecount = window.prompt ('Please enter a book pages count: ');
 
-    window.confirm("Would you like to add " + bookname + " to the library ?");
+    window.confirm(`Would you like to add ${bookname} to the library ? `);
     if (window.confirm = true){
-        window.alert(bookname + " by "  + bookauthor + " successfully saved to the library!")
+        window.alert(`${bookname} by ${bookauthor} successfully saved to the library!`)
     }
     else {
 
