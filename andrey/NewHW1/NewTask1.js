@@ -1,49 +1,48 @@
+let book = function bookManger() {
+    let bookName = window.prompt ('Please, enter a book name: ');
+    let bookAuthor = window.prompt ('Pleas, enter a book author: ');
+    let bookYear = window.prompt ('Please enter a book publication year: ');
+    let pageCount = window.prompt ('Please enter a book pages count: ');
 
-function bookManger() {
-    let bookname = window.prompt ('Please, enter a book name: ');
-    let bookauthor = window.prompt ('Pleas, enter a book author: ');
-    let bookyear = window.prompt ('Please enter a book publication year: ');
-    let pagecount = window.prompt ('Please enter a book pages count: ');
-
-    window.confirm(`Would you like to add ${bookname} to the library ? `);
+    window.confirm(`Would you like to add ${bookName} to the library ? `);
     if (window.confirm) {
-        window.alert(`${bookname} by ${bookauthor} successfully saved to the library!`)
+        window.alert(`${bookName} by ${bookAuthor} successfully saved to the library!`)
     }
     else {
         return;
         }
 
-    book = {
-        name: bookname,
-        author: bookauthor,
-        publication_year: bookyear,
-        pages_count: pagecount,
+    return {
+        name: bookName,
+        author: bookAuthor,
+        publication_year: bookYear,
+        pages_count: pageCount,
         getBookSize: function() {
-            if (pagecount < 101) {
-               booksize = "Small Size"
-            } else if (100 < pagecount < 251) {
-               booksize = "Medium Size"
-            } else if (251 < pagecount < 501) {
-                booksize = "Large Size"
+            if (pageCount < 101) {
+                this.pages_count = "Small Size"
+            } else if (100 < pageCount < 251) {
+                this.pages_count = "Medium Size"
+            } else if (251 < pageCount < 501) {
+                this.pages_count = "Large Size"
             }
-                else booksize = "XLarge Size"
+                else this.pages_count = "XLarge Size"
         },
         getPublicationCenturyy: function(){
-            if (bookyear < 0){
-                publicatiocentury = "Before our domination"
-            } else if (bookyear <=1000){
-                publicatiocentury = "Very Old Book"
-            } else if (1000 < bookyear < 2000) {
-                publicatiocentury = "So Old Book"
-            } else  publicatiocentury = "Normal Fresh book"
+            if (bookYear < 0){
+                this.publication_year = "Before our domination"
+            } else if (bookYear <=1000){
+                this.publication_year = "Very Old Book"
+            } else if (1000 < bookYear < 2000) {
+                this.publication_year = "So Old Book"
+            } else  this.publication_year = "Normal Fresh book"
         },
 
     }    
 };
 
+
 console.log(bookManger());
-console.log(getBookSize(pagecount));
-console.log(getPublicationCentury(bookyear));
+
 
 
 
