@@ -6,14 +6,14 @@ function bookManger() {
     let pagecount = window.prompt ('Please enter a book pages count: ');
 
     window.confirm(`Would you like to add ${bookname} to the library ? `);
-    if (window.confirm = true){
+    if (window.confirm) {
         window.alert(`${bookname} by ${bookauthor} successfully saved to the library!`)
     }
     else {
-
+        return;
         }
 
-    return book = {
+    book = {
         name: bookname,
         author: bookauthor,
         publication_year: bookyear,
@@ -28,7 +28,7 @@ function bookManger() {
             }
                 else booksize = "XLarge Size"
         },
-        getPublicatioCentury: function(){
+        getPublicationCenturyy: function(){
             if (bookyear < 0){
                 publicatiocentury = "Before our domination"
             } else if (bookyear <=1000){
@@ -43,7 +43,7 @@ function bookManger() {
 
 console.log(bookManger());
 console.log(getBookSize(pagecount));
-console.log(getPublicatioCentury(bookyear));
+console.log(getPublicationCentury(bookyear));
 
 
 
