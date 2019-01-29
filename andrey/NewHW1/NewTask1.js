@@ -1,11 +1,10 @@
-let book = function bookManger() {
+function bookManager() {
     let bookName = window.prompt ('Please, enter a book name: ');
     let bookAuthor = window.prompt ('Pleas, enter a book author: ');
     let bookYear = window.prompt ('Please enter a book publication year: ');
     let pageCount = window.prompt ('Please enter a book pages count: ');
 
-    window.confirm(`Would you like to add ${bookName} to the library ? `);
-    if (window.confirm) {
+    if (window.confirm (`Would you like to add ${bookName} to the library ? `)) {
         window.alert(`${bookName} by ${bookAuthor} successfully saved to the library!`)
     }
     else {
@@ -18,14 +17,16 @@ let book = function bookManger() {
         publication_year: bookYear,
         pages_count: pageCount,
         getBookSize: function() {
-            if (pageCount < 101) {
-                this.pages_count = "Small Size"
-            } else if (100 < pageCount < 251) {
-                this.pages_count = "Medium Size"
-            } else if (251 < pageCount < 501) {
-                this.pages_count = "Large Size"
+            if (this.pages_count < 101) {
+                 return "Small Size";
+            } else if (this.pages_count < 251) {
+                return "Medium Size";
+            } else if (this.pages_count < 501) {
+                return "Large Size";
             }
-                else this.pages_count = "XLarge Size"
+                else {
+                    return "XLarge Size";
+                }
         },
         getPublicationCenturyy: function(){
             if (bookYear < 0){
@@ -40,8 +41,9 @@ let book = function bookManger() {
     }    
 };
 
-
-console.log(bookManger());
+let book = bookManager();
+book.getBookSize();
+console.log(bookManager());
 
 
 
