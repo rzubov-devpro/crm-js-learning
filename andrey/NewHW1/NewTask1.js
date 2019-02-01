@@ -29,13 +29,15 @@ function bookManager() {
                 }
         },
         getPublicationCenturyy: function(){
-            if (bookYear < 0){
-                this.publication_year = "Before our domination"
-            } else if (bookYear <=1000){
-                this.publication_year = "Very Old Book"
-            } else if (1000 < bookYear < 2000) {
-                this.publication_year = "So Old Book"
-            } else  this.publication_year = "Normal Fresh book"
+            return publication_century = (this.publication_year - (this.publication_year % 100) / 100 + 1);
+            
+            //if (bookYear < 0){
+              //  this.publication_year = "Before our domination"
+            //} else if (bookYear <=1000){
+              //  this.publication_year = "Very Old Book"
+            //} else if (1000 < bookYear < 2000) {
+              //  this.publication_year = "So Old Book"
+            //} else  this.publication_year = "Normal Fresh book"
         },
 
     }    
