@@ -2,7 +2,7 @@
 function opposite(number) {//Function declaration, where (number) it's a parameter of function
     alert(-number);
 }
-opposite(-34);// Call function and send argument "34" to the function
+opposite(30);// Call function and send argument "34" to the function
 
 //Task №2 Add alert or return
 function multiply(a, b){//Function declaration, where (a and b ) are  parameters of function
