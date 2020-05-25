@@ -45,7 +45,7 @@ console.log('devisible',devisible2(1,100,250));
 //task5
 function calculsum(a, b, c, d) {
 
-    let isIgnored = confirm('Ignored negatives?');
+    let isIgnored = confirm('Ignore negatives?');
     if (isIgnored) {
 
         if (a < 0) {
