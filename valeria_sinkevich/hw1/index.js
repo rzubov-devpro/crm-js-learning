@@ -12,6 +12,7 @@ function multiply(a, b) {//Function declaration, where (a and b ) are  parameter
 console.log('multiple:', multiply(5,5));
 
 multiply(5, 5);// Call function and send  two arguments ( 5 and 5)
+
 //Task 4
 function calculator(operation, number1, number2) {//Function declaration, where operation is string and number 1 and number 2 are numbers
     if (operation == '+') {
