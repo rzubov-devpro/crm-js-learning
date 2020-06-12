@@ -3,11 +3,13 @@ const bar = {
     cola: 12,
     whiskey: 5,
     fanta: 7,
-    vodka: 2,
+    vodka: -100,
     drink(drinkName) {
         const drink = this[drinkName];
+        console.log(Boolean(drink), drink)
         if (!(drink && drink > 0)) {
             console.log(`Sorry buddy, no ${drinkName}!`);
+            return;
         }
         this[drinkName]--;
     },
@@ -43,14 +45,17 @@ function reserve() {
     this.reserved = true;
 }
 
-bar.drink('sprite');
+bar.drink('vodka');
+console.log('spite count:', bar.vodka);
+
+/*
 bar.drink('sprite');
 bar.drink('sprite');
 console.log('spite count:', bar.sprite);
 
 
 //bar.tables[0].reserve();
-/*bar.tables[1].reserve();*/
+/!*bar.tables[1].reserve();*!/
 //bar.tables[2].reserve();
 
 bar.reserveTable(0);
@@ -58,3 +63,4 @@ bar.reserveTable(1);
 bar.reserveTable(2);
 
 bar.getTables();
+*/
