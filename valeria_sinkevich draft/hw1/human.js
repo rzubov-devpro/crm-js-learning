@@ -36,13 +36,13 @@ let human = {
     },
     head: {
         getNoseType(){
-          console.log(this)
+          console.log(this);
           return this.nose.type
         },
         nose: {
             type: 'potato',
             getType(){
-                console.log('this1',this)
+                console.log('this1',this);
                 return this.type
 
             }
